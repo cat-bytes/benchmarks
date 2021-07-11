@@ -5,8 +5,12 @@ A block
 ```
 
 Odroid HC-4 has 4 cores
+ - MicroSD slot only
 
 Odroid N2+ has 6 cores
+ - eMMC socket
+ - 4 3.0 USB ports
+ - 12V/2A power supply recommend.  Did not work for me.  Worked with 15V/4A power supply.
 
 Build bitcoin core:
 ```
