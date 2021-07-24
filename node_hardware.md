@@ -10,7 +10,7 @@ Odroid HC-4 has 4 cores
 Odroid N2+ has 6 cores
  - eMMC socket
  - 4 3.0 USB ports
- - 12V/2A power supply recommend.  Did not work for me.  Worked with 15V/4A power supply.
+ - 12V/2A power supply recommend.  Did not work for me (blinking red light).  Worked with 15V/4A power supply.
 
 Build bitcoin core:
 ```
