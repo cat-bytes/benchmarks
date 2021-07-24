@@ -23,4 +23,31 @@ Results from Odroid N2+
 real	95m43.794s
 user	76m56.428s
 sys	4m45.648s
+
+real	79m56.965s
+user	76m21.244s
+sys	2m55.012s
+```
+
+Odroid N2+ and Seagate Ironwolf NAS SSD read benchmark
+```
+sudo hdparm -Ttv --direct /dev/sda
+
+/dev/sda:
+ multcount     = 16 (on)
+ readonly      =  0 (off)
+ readahead     = 256 (on)
+ geometry      = 121601/255/63, sectors = 1953525168, start = 0
+ Timing O_DIRECT cached reads:   550 MB in  2.00 seconds = 274.56 MB/sec
+ Timing O_DIRECT disk reads: 826 MB in  3.01 seconds = 274.84 MB/sec
+ ```
+ 
+ Odroid N2+ and Seagate Ironwolf NAS SSD write benchmark
+ ```
+root@odroid:/mnt/ssd# sync
+root@odroid:/mnt/ssd# echo 3 > /proc/sys/vm/drop_caches
+root@odroid:/mnt/ssd# dd if=/dev/zero of=/mnt/ssd/temp oflag=direct bs=128k count=32k
+32768+0 records in
+32768+0 records out
+4294967296 bytes (4.3 GB, 4.0 GiB) copied, 20.0062 s, 215 MB/s
 ```
