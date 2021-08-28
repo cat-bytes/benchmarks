@@ -51,3 +51,13 @@ root@odroid:/mnt/ssd# dd if=/dev/zero of=/mnt/ssd/temp oflag=direct bs=128k coun
 32768+0 records out
 4294967296 bytes (4.3 GB, 4.0 GiB) copied, 20.0062 s, 215 MB/s
 ```
+
+HPE ProLiant MiroServer Gen10+ Xeon E-2224
+```
+real	19m56.431s
+user	18m52.297s
+sys	1m1.579s
+```
+
+
+Odroid HC-4
