@@ -6,11 +6,20 @@ A block
 
 Odroid HC-4 has 4 cores
  - MicroSD slot only
+ - [https://browser.geekbench.com/v5/cpu/8135186](https://browser.geekbench.com/v5/cpu/8135186)
 
 Odroid N2+ has 6 cores
  - eMMC socket
  - 4 3.0 USB ports
  - 12V/2A power supply recommend.  Did not work for me (blinking red light).  Worked with 15V/4A power supply.
+ - [https://browser.geekbench.com/v5/cpu/8640371](https://browser.geekbench.com/v5/cpu/8640371)
+
+Odroid H2+
+ - [https://browser.geekbench.com/v5/cpu/6702406](https://browser.geekbench.com/v5/cpu/6702406)
+
+HPE ProLiant MicroServer Gen10+ has 4 cores
+ - Xeon E-2224
+ - [https://browser.geekbench.com/v5/cpu/9337904](https://browser.geekbench.com/v5/cpu/9337904)
 
 Build bitcoin core:
 ```
