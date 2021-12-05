@@ -17,6 +17,9 @@ Odroid N2+ has 6 cores
 Odroid H2+
  - [https://browser.geekbench.com/v5/cpu/6702406](https://browser.geekbench.com/v5/cpu/6702406)
 
+rockchip rk3588_s vs N2+
+ - [https://browser.geekbench.com/v5/cpu/compare/8640371?baseline=11371316](https://browser.geekbench.com/v5/cpu/compare/8640371?baseline=11371316)
+
 HPE ProLiant MicroServer Gen10+ has 4 cores
  - Xeon E-2224
  - [https://browser.geekbench.com/v5/cpu/9337904](https://browser.geekbench.com/v5/cpu/9337904)
